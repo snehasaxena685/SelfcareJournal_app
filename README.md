@@ -38,29 +38,6 @@ Tech Stack
 
 Project Structure
 
-SelfCare_Journal/
-├─ backend/
-│  ├─ models/
-│  │  ├─ User.js
-│  │  └─ Reflection.js
-│  ├─ routes/
-│  │  ├─ userRoutes.js
-│  │  └─ reflectionRoutes.js
-│  ├─ server.js
-│  └─ .env
-├─ selfcare-app/
-│  ├─ app/
-│  │  ├─ index.tsx         # Splash & auto-redirect
-│  │  ├─ (tabs)/_layout.tsx
-│  │  ├─ (tabs)/onboarding.tsx
-│  │  ├─ (tabs)/explore.tsx
-│  │  ├─ (tabs)/reflect.tsx
-│  │  └─ (tabs)/journal.tsx
-│  ├─ utils/
-│  │  └─ auth.ts
-│  └─ package.json
-└─ README.md
-
 Installation & Running Locally
 
 1. Backend Setup:
