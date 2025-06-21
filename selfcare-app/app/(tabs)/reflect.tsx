@@ -14,7 +14,7 @@ export default function ReflectScreen() {
     }
 
     try {
-      const response = await fetch('http://192.168.1.2:5000/api/reflections', {
+      const response = await fetch('http://192.168.1.7:5000/api/reflections', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ reflection, userId }),

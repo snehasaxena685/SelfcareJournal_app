@@ -16,7 +16,7 @@ export default function JournalScreen() {
         return;
       }
 
-      const response = await fetch(`http://192.168.1.2:5000/api/reflections/${userId}`);
+      const response = await fetch(`http://192.168.1.7:5000/api/reflections/${userId}`);
       const contentType = response.headers.get('Content-Type');
 
       if (contentType && contentType.includes('application/json')) {

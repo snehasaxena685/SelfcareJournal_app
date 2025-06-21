@@ -21,10 +21,12 @@ module.exports = router;
 // GET reflections by user ID
 router.get('/:userId', async (req, res) => {
   try {
-    const reflections = await Reflection.find({ userId: req.params.userId }).sort({ createdAt: -1 });
+    const reflections = await Reflection.find({ userId: req.params.userId })
+      .sort({ createdAt: -1 });
     res.json(reflections);
   } catch (err) {
     res.status(500).json({ error: 'Failed to fetch reflections' });
   }
 });
+
 module.exports = router;
