@@ -37,6 +37,7 @@ Tech Stack
 - Database: MongoDB Atlas
 
 Project Structure
+![Image](https://github.com/user-attachments/assets/fc057cbc-ee59-4029-8f0f-e67730e1c90b)
 
 Installation & Running Locally
 
