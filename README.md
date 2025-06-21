@@ -95,4 +95,6 @@ Future Improvements
 - Visualize mood trends with charts.
 - Deploy backend to a public cloud service.
 
+*Final Screenshots Of Working App*
+
 *Built with ❤️ by Sneha.*
